@@ -1,0 +1,387 @@
+/*activation-history*/
+#activation-history
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    background: rgba(0, 0, 0, 0.8) 0% 0% no-repeat padding-box
+    z-index: 25
+.activation-history-content
+    opacity: 1
+    max-width: 780px
+    width: 100%
+    margin: 0 60px
+
+.activation-history-title
+    background: #FF8422
+    padding: 8px 18px
+    & p
+        font-size: 1.4rem
+        font-weight: 500
+    & i
+        font-size: 1.8rem
+        cursor: pointer
+.activation-history-box
+    flex-grow: 1
+    background: #001A41B3
+.activation-history-box-header
+    width: 100%
+    padding: 15px 18px 10px 18px
+    box-shadow: 0px 3px 0px -2px #00B4FB
+    & p
+        font-size: 1.4rem
+        font-weight: 500
+.activation-history-box-history
+    width: 100%
+    padding: 0 18px
+.activation-history-box-history-content
+    min-height: 380px
+    margin-top: 26px
+    & p
+        font-size: 1.4rem
+        font-weight: 100
+/*End activation-history*/
+/*entrance*/
+#entrance
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    background: rgba(0, 0, 0, 0.8) 0% 0% no-repeat padding-box
+    z-index: 25
+.entrance-content
+    opacity: 1
+    max-width: 780px
+    width: 100%
+    margin: 0 60px
+.entrance-title
+    font-size: 1.4rem
+    font-weight: 500
+    background: #FF8422
+    padding: 8px 18px
+    & i
+        font-size: 1.8rem
+        cursor: pointer
+.entrance-box
+    flex-grow: 1
+    background: #001A41B3
+    & h4
+        font-size: 1.4rem
+        font-weight: 500
+        margin-top: 25px
+        & span
+            color: #FF8422
+    & form
+        display: flex
+        flex-direction: column
+        width: 57%
+
+        margin-top: 33px
+        & input
+            background: transparent
+            border: 1px solid #00BBFB
+            outline: none
+            padding: 9px 18px
+
+.entrance-password-box
+    position: relative
+    & input
+        background: transparent
+        border: 1px solid #00BBFB
+        outline: none
+        padding: 9px 18px
+        width: 100%
+        margin-top: 15px
+    & button
+        position: absolute
+        cursor: pointer
+        right: 3px
+        background-color: transparent
+        border: none
+        top: 23px
+.entrance-support
+    width: 55%
+    justify-content: space-between
+    margin-top: 13px
+.forgot-password a,
+.social-net-text
+    font-size: 1.1rem
+    font-weight: 300
+
+input[type='checkbox']
+    display: none
+label
+    padding-left: 20px
+    font-size: 1.1rem
+    margin-bottom: -5px
+    font-weight: 300
+label
+    &::before
+        content: ''
+        display: inline-block
+        width: 10px
+        height: 10px
+        // background-color: #000
+        border-radius: 20%
+        border: 2px solid #fff
+
+        vertical-align: middle
+        margin-left: -10px
+        margin-right: 10px
+input[type="checkbox"]:checked + label::before
+        content: ''
+        background-size: 100%
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDc4LjM2OSA3OC4zNjkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDc4LjM2OSA3OC4zNjk7IiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFzcz0iIj48Zz48Zz4KCTxwYXRoIGQ9Ik03OC4wNDksMTkuMDE1TDI5LjQ1OCw2Ny42MDZjLTAuNDI4LDAuNDI4LTEuMTIxLDAuNDI4LTEuNTQ4LDBMMC4zMiw0MC4wMTVjLTAuNDI3LTAuNDI2LTAuNDI3LTEuMTE5LDAtMS41NDdsNi43MDQtNi43MDQgICBjMC40MjgtMC40MjcsMS4xMjEtMC40MjcsMS41NDgsMGwyMC4xMTMsMjAuMTEybDQxLjExMy00MS4xMTNjMC40MjktMC40MjcsMS4xMi0wLjQyNywxLjU0OCwwbDYuNzAzLDYuNzA0ICAgQzc4LjQ3NywxNy44OTQsNzguNDc3LDE4LjU4Niw3OC4wNDksMTkuMDE1eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCIgc3R5bGU9ImZpbGw6I0ZGRkZGRiI+PC9wYXRoPgo8L2c+PC9nPiA8L3N2Zz4=)
+.entrance-social-net
+    margin-top: 30px
+    width: 50%
+
+.entrance-social-net-link
+    & a
+        padding: 8px
+        margin: 5px
+        &:nth-last-child(1)
+            background: #EE8208
+        &:nth-last-child(2)
+            background: #3B5999
+        &:nth-last-child(3)
+            background: #4C75A3
+.entrance-recapycha
+    // background: #000
+    // height: 75px
+    // width: 300px
+    margin-top: 15px
+#entrance-login-account
+    margin-top: 24px
+    cursor: pointer
+    margin-bottom: 21px
+    padding: 9px 102px
+    font-size: 1.4rem
+    font-weight: 500
+    background: #FF8422
+    border: none
+/*End entrance*/
+
+/*list-participant*/
+
+#list-participant
+    position: fixed
+    overflow-y: scroll
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    display: flex
+    padding-top: 15px
+    justify-content: center
+    align-items: center
+    background: rgba(0, 0, 0, 0.8) 0% 0% no-repeat padding-box
+    z-index: 25
+.list-participant-content
+    opacity: 1
+    max-width: 780px
+    width: 100%
+    margin: 0 60px
+    overflow: scroll
+
+.list-participant-title
+    background: #FF8422
+    padding: 8px 18px
+    font-size: 1.4rem
+    font-weight: 500
+    & i
+        font-size: 1.8rem
+        cursor: pointer
+
+.list-participant-box
+    flex-grow: 1
+    background: #001A41B3
+.list-participant-block
+    // box-shadow: 0px 1px 0px 0px #00B4FB
+    // border-left: 1px solid #00B4FB
+    // border-right: 1px solid #00B4FB
+    // border-top: 0.5px solid #00B4FB
+    border-bottom: 1px solid #00B4FB
+    align-items: center
+    &:last-child
+        border-bottom: 0px solid #00B4FB
+    & .list-participant-user
+        padding: 9px 18px
+        align-items: center
+        & img
+            margin-right: 14px
+    & .data
+        padding: 9px 18px
+/*End list-participant*/
+
+/*registration*/
+#registration
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    background: rgba(0, 0, 0, 0.8) 0% 0% no-repeat padding-box
+    z-index: 25
+.registration-content
+    opacity: 1
+    max-width: 780px
+    width: 100%
+    margin: 0 60px
+
+.registration-title
+    background: #FF8422
+    padding: 8px 18px
+    font-size: 1.4rem
+    font-weight: 500
+    & i
+        font-size: 1.8rem
+        cursor: pointer
+
+.registration-box
+    flex-grow: 1
+    background: #001A41B3
+    & h4
+        font-size: 1.4rem
+        font-weight: 500
+        margin-top: 25px
+        & span
+            color: #FF8422
+    & form
+        display: flex
+        flex-direction: column
+        width: 57%
+
+        margin-top: 33px
+        & input
+            background: transparent
+            border: 1px solid #00BBFB
+            outline: none
+            padding: 9px 18px
+            &:nth-last-child(2)
+                margin-top: 15px
+
+.registration-password-box
+    .registration-password
+        position: relative
+        & input
+            background: transparent
+            border: 1px solid #00BBFB
+            outline: none
+            padding: 9px 18px
+            width: 100%
+            margin-top: 15px
+        & button
+            position: absolute
+            right: 3px
+            cursor: pointer
+            top: 23px
+.registration-site-rules
+    width: 40%
+    margin-top: 21px
+    justify-content: flex-end
+    & a
+        font-size: 1.1rem
+        font-weight: 300
+        color: #00B4FB
+.registration-social-net
+    margin-top: 30px
+    width: 50%
+    .registration-social-net-link
+        & a
+            padding: 8px
+            margin: 5px
+            &:nth-last-child(1)
+                background: #EE8208
+            &:nth-last-child(2)
+                background: #3B5999
+            &:nth-last-child(3)
+                background: #4C75A3
+.registration-recapycha
+    // background: #000
+    // height: 75px
+    // width: 300px
+    margin-top: 15px
+#registration-login-account
+    margin-top: 26px
+    margin-bottom: 39px
+    padding: 9px 102px
+    background: #FF8422
+    border: none
+/*End registration*/
+
+/*tech-support*/
+#tech-support
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    background: rgba(0,0,0,.8) 0% 0% no-repeat padding-box
+    z-index: 25
+.tech-support-content
+    opacity: 1
+    max-width: 780px
+    width: 100%
+    margin: 0 60px
+.tech-support-title
+    background: #FF8422
+    font-size: 1.4rem
+    font-weight: 500
+    padding: 8px 18px
+    & i
+        font-size: 1.8rem
+        cursor: pointer
+.tech-support-box
+    flex-grow: 1
+    background: #001A41B3
+.tech-support-box
+    & h4
+        margin-top: 25px
+        font-size: 1.4rem
+        font-weight: 500
+    & form
+        // flex-basis: 581px
+        // max-width: 581px
+        width: 70%
+
+        margin-top: 34px
+        & input
+            background: transparent
+            padding: 9px 18px
+            flex-grow: 1
+            color: #fff
+            outline: none
+            border: 1px solid #00BBFB
+        & textarea
+            padding: 9px 18px
+            background: transparent
+            flex-grow: 1
+            resize: none
+            margin-top: 22px
+            outline: none
+            border: 1px solid #00BBFB
+    & button
+        background: #FF8422
+        border: none
+        padding: 8px 80px
+        margin-top: 40px
+        cursor: pointer
+        margin-bottom: 30px
+        font-size: 1.4rem
+        font-weight: 500
+/*End tech-support*/

@@ -1,0 +1,2381 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WorldGames</title>
+    <link rel="icon" href="src/img/header/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/fontello.css">
+    <link rel="stylesheet" href="src/css/app.css">
+</head>
+
+<body id="main-page">
+    <!--icon fixed-->
+    <div class="icon-chat">
+        <div class="icon-chat__img df justify-content-center align-items-center">
+            <img src="src/img/header/chat.svg" alt="">
+        </div>
+    </div>
+    <div class="icon-info">
+        <div class="icon-chat__img df justify-content-center align-items-center">
+            <img src="src/img/header/information.svg" alt="">
+        </div>
+    </div>
+    <!-- End icon fixed-->
+    <!--Header-->
+    <header class="header" id="header">
+        <div class="header-box df align-items-end justify-content-between">
+            <div class="header-box__logo">
+                <img src="src/img/header/logo.png" alt="">
+            </div>
+            <div class="header-box__soc">
+                <div class="header-box__soc__box df align-items-end">
+                    <div class="header-box__soc__block email">
+                        <a class="support-popups" href="#">
+                            <i class="icon-mail"></i>
+                        </a>
+                    </div>
+                    <div class="header-box__soc__block ok">
+                        <a href="">
+                            <i class="icon-odnoklassniki"></i>
+                        </a>
+                    </div>
+                    <div class="header-box__soc__block facebook">
+                        <a href="#">
+                            <i class="icon-facebook-circled"></i>
+                        </a>
+                    </div>
+                    <div class="header-box__soc__block vk">
+                        <a href="#">
+                            <i class="icon-vkontakte"></i>
+                        </a>
+                    </div>
+                    <div class="header-box__soc__block tel">
+                        <img src="src/img/header/XMLID_496_.svg" alt="4" srcset="">
+                    </div>
+                    <div class="header-box__soc__block">
+                        <ul>
+                            <li class="hover-activ"><img src="src/img/header/russia.svg" alt=""></li>
+                            <li class="hover-block"><img src="src/img/header/ukraine.svg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-box__soc__nav">
+                    <ul class="df justify-content-between align-items-center">
+                        <li>
+                            <a class=" click-page" href="#games">
+                                <i class="icon-home"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="news-page click-page" href="#news">Новости</a>
+                        </li>
+                        <li>
+                            <a class="click-page" href="#rayouts">Выплаты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-box__jacpot">
+                <img src="src/img/header/jackpot.png" alt="">
+                <span>1500.00 ₽</span>
+            </div>
+            <div class="header-box__user df ">
+                <div class="header-box__maney ">
+                    <div class="header-box__maney__content df">
+                        <img src="src/img/header/4ec3_bc03.png" alt="">
+                        <div class="header-box__maney__box df justify-content-between flex-direction-column">
+                            <div class="header-box__maney__block align-items-center df">
+                                <p>
+                                    Баланс: <span> 1000.00р</span>
+                                </p>
+                            </div>
+                            <div class="header-box__maney__block df">
+                                <p class="df align-items-center">
+                                    Игрок:
+                                </p>
+                                <button class="df align-items-center justify-content-center">
+                                    <i class="icon-volume-off"></i>
+                                </button>
+                                <button class="df align-items-center justify-content-center">
+                                    <img src="src/img/header/icon.svg" alt="icon">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-box__maney__nav ">
+                        <ul class="df">
+                            <li>
+                                <a class="header-box__maney-button click-page" href="#referral">Рефералка</a>
+                            </li>
+                            <li>
+                                <a class="header-box__maney-btn click-page" href="#promo">Бонусы</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-box__buttom df align-items-end">
+                    <a class="click-page" href="#output">Вывести</a>
+                    <a class="click-page" href="#deposit">Пополнить</a>
+                </div>
+            </div>
+            <div class="header-box__exit dn">
+                <div class="header-box__buttom df justify-content-flex-end">
+                    <a href="#" class="header-box__buttom-entrance-page">Вход</a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-header dn">
+            <div class="mobile-header__box df align-items-center justify-content-between">
+                <div class="mobile-header__box-logo df align-items-center ">
+                    <div class="header-box__logo">
+                        <img src="src/img/header/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="mobile-burger align-items-center  df">
+                    <div class="mobile-burger__user align-items-center df">
+                        <div class="header-box__maney__content df">
+                            <img src="src/img/header/4ec3_bc03.png" alt="">
+                            <div class="header-box__maney__box df justify-content-between flex-direction-column">
+                                <div class="header-box__maney__block df">
+                                    <p>
+                                        Баланс: <span> 1000.00р</span>
+                                    </p>
+                                </div>
+                                <div class="header-box__maney__block df">
+                                    <p class="df align-items-center">
+                                        Игрок:
+                                    </p>
+                                    <button class="df align-items-center justify-content-center">
+                                        <i class="icon-volume-off"></i>
+                                    </button>
+                                    <button class="df align-items-center justify-content-center">
+                                        <img src="src/img/header/icon.svg" alt="icon">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-box__buttom df">
+                            <a class="click-page" href="#deposit">Вывести</a>
+                            <a class="click-page" href="#output">Пополнить</a>
+                        </div>
+                    </div>
+                    <div class="mobile-burger__img">
+                        <img src="src/img/header/menu.svg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="mobile-burger__block">
+                <nav>
+                    <ul>
+                        <li><a class="click-page" href="#news">Новости</a></li>
+                        <li><a class="click-page" href="#rayouts">Выплаты</a></li>
+                        <li><a class="click-page" href="#referral">Рефералка</a></li>
+                        <li><a class="click-page" class="header-box__maney-btn" href="#promo">Бонусы</a></li>
+                    </ul>
+                    <div class="header-box__soc__box df align-items-end">
+                        <div class="header-box__soc__block email">
+                            <a class="support-popups" href="#">
+                                <i class="icon-mail"></i>
+                            </a>
+                        </div>
+                        <div class="header-box__soc__block ok">
+                            <a href="#">
+                                <i class="icon-odnoklassniki"></i>
+                            </a>
+                        </div>
+                        <div class="header-box__soc__block facebook">
+                            <a href="#">
+                                <i class="icon-facebook-circled"></i>
+                            </a>
+                        </div>
+                        <div class="header-box__soc__block vk">
+                            <a href="#">
+                                <i class="icon-vkontakte"></i>
+                            </a>
+                        </div>
+                        <div class="header-box__soc__block tel">
+                            <img src="src/img/header/XMLID_496_.svg" alt="4" srcset="">
+                        </div>
+                        <div class="header-box__soc__block">
+                            <ul>
+                                <li class="hover-activ"><img src="src/img/header/russia.svg" alt=""></li>
+                                <li class="hover-block"><img src="src/img/header/ukraine.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--End Header-->
+    <!--Main-->
+    <section class="main-content df justify-content-between align-items-end">
+        <!--Chat-->
+        <div class="main-content__chat df flex-direction-column">
+            <div class="chat-header">
+                <p>
+                    Игроков онлайн: <span>251</span>
+                </p>
+            </div>
+            <div class="chat-box">
+                <div class="chat-box__user df align-items-end">
+                    <div class="chat-box__user__img">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                    </div>
+                    <div class="chat-box__user__content">
+                        <div class="user-content__name">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="user-content__descr">
+                            <p>
+                                Не следует, однако забывать, что консультация с широким активом обеспечивает широкому
+                                кругу (специалистов) участие в формировании существенных административных условий.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-box__user df">
+                    <div class="chat-box__user__img">
+                        <img src="src/img/chat/user/user-two.png" alt="">
+                    </div>
+                    <div class="chat-box__user__content">
+                        <div class="user-content__name">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="user-content__descr">
+                            <p>
+                                Идейные соображения высшего порядка, а также постоянный количественный рост и сфера
+                                нашей активности влечет за собой процесс внедрения и модернизации направлений
+                                прогрессивного развития.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-form">
+                <form class="df" action="">
+                    <input type="text" placeholder="Написать сообщение">
+                    <button><i class="icon-right-big"></i></button>
+                </form>
+            </div>
+        </div>
+        <!--End Chat-->
+
+        <!--Games-->
+        <div id="games"
+            class="dn page faded in active  main-content__games df align-items-center flex-direction-column">
+            <div class="games-button">
+                <div class="games-button__block df align-items-center  justify-content-between">
+                    <p class="action-btn">Фортуна</p>
+                    <a href="#wheel" class="click-page">Колесо удачи</a>
+                </div>
+                <div class="games-button__two df align-items-center  justify-content-between">
+                    <p class="maximum-text ">Maximum</p>
+                    <p>Минимальная ставка в раунде: 100
+                        Максимальная ставка в раунде: 3000</p>
+                    <a class="minimum-btn" href="#">Minimum</a>
+                </div>
+                <div class="games-button__three df flex-direction-column justify-content-center align-items-center">
+                    <div class="button-block__box df">
+                        <button>100</button>
+                        <button>Ставка</button>
+                    </div>
+                    <div class="button-block__box-two df">
+                        <button>+10</button>
+                        <button>100</button>
+                        <button>500</button>
+                        <button>max</button>
+                    </div>
+                </div>
+            </div>
+            <div class="block-games  ">
+                <div class="games-content df flex-direction-column justify-content-center align-items-center">
+                    <div class="games-content__box df flex-wrap-wrap justify-content-center ">
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/games/userthree.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-two.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-two.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/games/userthree.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/games/userthree.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-two.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-two.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-two.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/games/userthree.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-two.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/games/userthree.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/games/userthree.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-two.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-two.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-two.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/games/userthree.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-two.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-one.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/games/userthree.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/header/4ec3_bc03.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-two.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/games/userthree.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/games/userthree.png" alt=""></div>
+                        <div class="games-content__img"><img src="src/img/chat/user/user-two.png" alt=""></div>
+
+
+                    </div>
+
+                </div>
+                <div class="games-content__win df">
+                    <div class="info-bonus__header df justify-content-between align-items-center">
+                        <p>Победитель: <span>идет розыгрыш</span> </p>
+                    </div>
+                    <div class="games-content__win__button">
+                        <button>История игр</button>
+                    </div>
+                    <div class="games-content__win-block">
+                        <a href="#">Общая статистика</a>
+                        <a href="#">Личная статистика</a>
+                    </div>
+                </div>
+                <div class="block-games__users df justify-content-between">
+                    <div class="games-users__block df align-items-center  ">
+                        <div class="games-users__block__img">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="games-users__block__content justify-content-between df flex-direction-column">
+                            <div class="block__content-box df justify-content-between">
+                                <div class="users__block__content_name">
+                                    <p>
+                                        Игрок1
+                                    </p>
+                                </div>
+                                <div class="users__block__content___money">
+                                    <p>
+                                        100.00 ₽
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="block__content-box df justify-content-between">
+                                <div class="users__block__content__tickets">
+                                    <p>
+                                        Билеты:
+                                    </p>
+                                </div>
+                                <div class="users__block__content___chance">
+                                    <p>
+                                        Шанс: <span>11%</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="games-users__block df align-items-center  ">
+                        <div class="games-users__block__img">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="games-users__block__content justify-content-between df flex-direction-column">
+                            <div class="block__content-box df justify-content-between">
+                                <div class="users__block__content_name">
+                                    <p>
+                                        Игрок1
+                                    </p>
+                                </div>
+                                <div class="users__block__content___money">
+                                    <p>
+                                        100.00 ₽
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="block__content-box df justify-content-between">
+                                <div class="users__block__content__tickets">
+                                    <p>
+                                        Билеты:
+                                    </p>
+                                </div>
+                                <div class="users__block__content___chance">
+                                    <p>
+                                        Шанс: 11%
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Games-->
+
+        <!--News-->
+        <div id="news" class="dn faded page news">
+            <div class="news-content">
+                <div class="news-content__title">
+                    <p>Новости</p>
+                </div>
+                <div class="news-content__block">
+                    <div class="block-title">
+                        <p>
+                            Новость 1
+                        </p>
+                    </div>
+                    <div class="block-descr">
+                        <p>
+                            Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности
+                            требуют от нас анализа форм развития. Товарищи! реализация намеченных плановых заданий
+                            требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных
+                            задач.
+                        </p>
+                    </div>
+                    <div class="block-button">
+                        <button>
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+                <div class="news-content__block">
+                    <div class="block-title">
+                        <p>
+                            Новость 1
+                        </p>
+                    </div>
+                    <div class="block-descr">
+                        <p>
+                            Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности
+                            требуют от нас анализа форм развития. Товарищи! реализация намеченных плановых заданий
+                            требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных
+                            задач.
+                        </p>
+                    </div>
+                    <div class="block-button">
+                        <button>
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+                <div class="news-content__block">
+                    <div class="block-title">
+                        <p>
+                            Новость 1
+                        </p>
+                    </div>
+                    <div class="block-descr">
+                        <p>
+                            Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности
+                            требуют от нас анализа форм развития. Товарищи! реализация намеченных плановых заданий
+                            требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных
+                            задач.
+                        </p>
+                    </div>
+                    <div class="block-button">
+                        <button>
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+                <div class="news-content__block">
+                    <div class="block-title">
+                        <p>
+                            Новость 1
+                        </p>
+                    </div>
+                    <div class="block-descr">
+                        <p>
+                            Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности
+                            требуют от нас анализа форм развития. Товарищи! реализация намеченных плановых заданий
+                            требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных
+                            задач.
+                        </p>
+                    </div>
+                    <div class="block-button">
+                        <button>
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+                <div class="news-content__block">
+                    <div class="block-title">
+                        <p>
+                            Новость 1
+                        </p>
+                    </div>
+                    <div class="block-descr">
+                        <p>
+                            Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности
+                            требуют от нас анализа форм развития. Товарищи! реализация намеченных плановых заданий
+                            требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных
+                            задач.
+                        </p>
+                    </div>
+                    <div class="block-button">
+                        <button>
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+                <div class="news-content__block">
+                    <div class="block-title">
+                        <p>
+                            Новость 1
+                        </p>
+                    </div>
+                    <div class="block-descr">
+                        <p>
+                            Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности
+                            требуют от нас анализа форм развития. Товарищи! реализация намеченных плановых заданий
+                            требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных
+                            задач.
+                        </p>
+                    </div>
+                    <div class="block-button">
+                        <button>
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+                <div class="news-content__block">
+                    <div class="block-title">
+                        <p>
+                            Новость 1
+                        </p>
+                    </div>
+                    <div class="block-descr">
+                        <p>
+                            Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности
+                            требуют от нас анализа форм развития. Товарищи! реализация намеченных плановых заданий
+                            требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных
+                            задач.
+                        </p>
+                    </div>
+                    <div class="block-button">
+                        <button>
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+                <div class="news-content__block">
+                    <div class="block-title">
+                        <p>
+                            Новость 1
+                        </p>
+                    </div>
+                    <div class="block-descr">
+                        <p>
+                            Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности
+                            требуют от нас анализа форм развития. Товарищи! реализация намеченных плановых заданий
+                            требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных
+                            задач.
+                        </p>
+                    </div>
+                    <div class="block-button">
+                        <button>
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End News-->
+
+        <!--Payouts-->
+        <div id="rayouts" class="dn faded page payouts df flex-direction-column justify-content-center">
+            <div class="payouts-header">
+                <p>
+                    Выплаты
+                </p>
+            </div>
+            <div class="payouts-content">
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payouts-content__block df justify-content-between align-items-center">
+                    <div class="payouts-content__block-img df align-items-center">
+                        <img src="src/img/chat/user/user-one.png" alt="">
+                        <p>
+                            Игрок
+                        </p>
+                    </div>
+                    <div class="payouts-content__block-text df">
+                        <div class="block-text__money">
+                            <p>
+                                100.00 ₽
+                            </p>
+                        </div>
+                        <div class="block-text__purse">
+                            <p>
+                                QIWI
+                            </p>
+                        </div>
+                        <div class="block-text__tel">
+                            <p>
+                                +380---------
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Payouts-->
+
+        <!--Referral-->
+        <div id="referral" class="dn faded page referral flex-direction-column">
+            <div class="referral-header">
+                <p>Реферальная система</p>
+            </div>
+            <div class="referral-content df align-items-center justify-content-between">
+                <div class="referral-content__descr">
+                    <p>
+                        Реферальная ссылка
+                    </p>
+                </div>
+                <div class="referral-content__ref df">
+                    <input class="linkToCopy" readonly value="http://worldgame.online/121544512154">
+                    <button class="referral-content__ref-btn">
+                        <i class="icon-clone"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="referral-header statistics">
+                <p>Статистика</p>
+            </div>
+            <div class="statistics-content df align-items-center justify-content-between">
+                <div class="statistics-content__block">
+                    <div class="text">
+                        <p>
+                            Количество рефералов
+                        </p>
+                    </div>
+                    <div class="number">
+                        <p>
+                            10
+                        </p>
+                    </div>
+                </div>
+                <div class="statistics-content__block ">
+                    <div class="text">
+                        <p>
+                            Общий доход
+                        </p>
+                    </div>
+                    <div class="number">
+                        <p>
+                            100.00 ₽
+                        </p>
+                    </div>
+                </div>
+                <div class="statistics-content__block">
+                    <div class="text">
+                        <p>
+                            Заработок
+                        </p>
+                    </div>
+                    <div class="number">
+                        <p>
+                            10%
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Referral-->
+
+        <!--Wheel-->
+        <div id="wheel" class="dn  wheel page faded  align-items-center flex-direction-column">
+            <div class="games-button">
+                <div class="games-button__block df align-items-center  justify-content-between">
+                    <a href="#games" class="click-page">Фортуна</a>
+                    <p class="action-btn">Колесо удачи</p>
+                </div>
+                <div class="games-button__two df align-items-center  justify-content-center">
+                    <p>Минимальная ставка в раунде: 100 Максимальная ставка в раунде: 3000</p>
+                </div>
+                <div class="games-button__three df flex-direction-column justify-content-center align-items-center">
+                    <div class="button-block__box df">
+                        <button>50</button>
+                        <button>Ставка</button>
+                    </div>
+                    <div class="button-block__box-two df">
+                        <button>+10</button>
+                        <button>100</button>
+                        <button>500</button>
+                        <button>max</button>
+                    </div>
+                </div>
+            </div>
+            <div class="block-games ">
+                <div class="block-games__whell df justify-content-center">
+                    <figure>
+                        <img class="block-games__whell-img" src="src/img/wheel/wheel.png" alt="">
+                        <div class="figure-block__user one-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user two-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user three-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user four-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user five-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user six-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user seven-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user eight-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user nine-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user ten-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user eleven-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user twelve-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user thirteen-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user fourteen-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user fifteen-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user sixteen-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user seventeen-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user eighteen-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user nineteen-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+                        <div class="figure-block__user twenty-user">
+                            <img src="src/img/chat/user/user-one.png" alt="">
+                        </div>
+
+                    </figure>
+                </div>
+                <div class="block-games_footer">
+                    <div class="games-content__win df">
+                        <div class="info-bonus__header df justify-content-between align-items-center">
+                            <p>Победитель: <span>идет розыгрыш</span> </p>
+                        </div>
+                        <div class="games-content__win__button">
+                            <button>История игр</button>
+                        </div>
+                        <div class="games-content__win-block">
+                            <a href="#">Общая статистика</a>
+                            <a href="#">Личная статистика</a>
+                        </div>
+                    </div>
+                    <div class="block-games__users df justify-content-between">
+                        <div class="games-users__block df align-items-center  ">
+                            <div class="games-users__block__img">
+                                <img src="src/img/chat/user/user-one.png" alt="">
+                            </div>
+                            <div class="games-users__block__content justify-content-between df flex-direction-column">
+                                <div class="block__content-box df justify-content-between">
+                                    <div class="users__block__content_name">
+                                        <p>
+                                            Игрок1
+                                        </p>
+                                    </div>
+                                    <div class="users__block__content___money">
+                                        <p>
+                                            100.00 ₽
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="block__content-box df justify-content-between">
+                                    <div class="users__block__content__tickets">
+                                        <p>
+                                            Билеты:
+                                        </p>
+                                    </div>
+                                    <div class="users__block__content___chance">
+                                        <p>
+                                            Шанс: <span>11%</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="games-users__block df align-items-center  ">
+                            <div class="games-users__block__img">
+                                <img src="src/img/chat/user/user-one.png" alt="">
+                            </div>
+                            <div class="games-users__block__content justify-content-between df flex-direction-column">
+                                <div class="block__content-box df justify-content-between">
+                                    <div class="users__block__content_name">
+                                        <p>
+                                            Игрок1
+                                        </p>
+                                    </div>
+                                    <div class="users__block__content___money">
+                                        <p>
+                                            100.00 ₽
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="block__content-box df justify-content-between">
+                                    <div class="users__block__content__tickets">
+                                        <p>
+                                            Билеты:
+                                        </p>
+                                    </div>
+                                    <div class="users__block__content___chance">
+                                        <p>
+                                            Шанс: 11%
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Wheel-->
+
+        <!--Agreement-->
+        <div id="agreement" class=" dn page  faded agreement  flex-direction-column">
+            <div class="agreement-header">
+                <p>
+                    Соглашение
+                </p>
+            </div>
+            <div class="agreement-content">
+                <p>
+                    ВНИМАНИЕ: Пожалуйста, ознакомьтесь с настоящим пользовательским соглашением до начала
+                    использования сайта worldgame.online и их программных средств. Регистрация (авторизация)
+                    на сайтах будет означать ваше согласие с условиями настоящего пользовательского
+                    соглашения. Если Вы не согласны с условиями настоящего пользовательского
+                    соглашения, не регистрируйтесь (авторизуйтесь) на сайте worldgame.online
+                    и не используйте их программные средства.
+                </p>
+                <p>
+                    УСЛОВИЯ УЧАСТИЯ ВНИМАНИЕ!НЕ
+                    АВТОРИЗУЙТЕСЬ НА САЙТЕ worldgame.online И НЕ ИСПОЛЬЗУЙТЕ СЕРВИСЫ
+                    ДАННОГО САЙТА, ЕСЛИ ВЫ НЕ СОГЛАСНЫ С УСЛОВИЯМИ НАСТОЯЩЕГО
+                    ПОЛЬЗОВАТЕЛЬСКОГО СОГЛАШЕНИЯ.
+                </p>
+                <span>
+                    1.ТЕРМИНЫ И ОПРЕДЕЛЕНИЯ.
+                </span>
+                <span>
+                    1.1. В НАСТОЯЩЕМ СОГЛАШЕНИИ, ЕСЛИ ИЗ ТЕКСТА ПРЯМО
+                    НЕ ВЫТЕКАЕТ ИНОЕ, СЛЕДУЮЩИЕ ТЕРМИНЫ БУДУТ ИМЕТЬ
+                    УКАЗАННЫЕ НИЖЕ ЗНАЧЕНИЯ:
+                </span>
+                <p>
+                    1.1.1. САЙТ - СОВОКУПНОСТЬ ИНФОРМАЦИИ, ТЕКСТОВ, ГРАФИЧЕСКИХ ЭЛЕМЕНТОВ, ДИЗАЙНА, ИЗОБРАЖЕНИЙ,
+                    ФОТО И ВИДЕОМАТЕРИАЛОВ И ИНЫХ РЕЗУЛЬТАТОВ ИНТЕЛЛЕКТУАЛЬНОЙ ДЕЯТЕЛЬНОСТИ, А ТАКЖЕ
+                    ПРОГРАММ ДЛЯ ЭВМ, СОДЕРЖАЩИХСЯ В ИНФОРМАЦИОННОЙ СИСТЕМЕ, ОБЕСПЕЧИВАЮЩЕЙ ДОСТУПНОСТЬ
+                    ТАКОЙ ИНФОРМАЦИИ В СЕТИ ИНТЕРНЕТ ПО СЕТЕВОМУ АДРЕСУ
+                    https://worldgame.online.
+                </p>
+                <span>
+                    САЙТ ЯВЛЯЕТСЯ ИНТЕРНЕТ-РЕСУРСОМ, ПРЕДНАЗНАЧЕННЫМ ДЛЯ ОКАЗАНИЯ
+                    РАЗВЛЕКАТЕЛЬНО-АТТРАКЦИОННЫХ УСЛУГ ФИЗИЧЕСКИМ ЛИЦАМ.
+                </span>
+                <p>
+                    1.1.2. СОГЛАШЕНИЕ – НАСТОЯЩЕЕ
+                    ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ, ЯВЛЯЮЩЕЕСЯ ПУБЛИЧНОЙ ОФЕРТОЙ, В ЦЕЛОМ БЕЗ ИЗЪЯТИЙ
+                    И ОГОВОРОК.
+                </p>
+                <p>
+                    1.1.3. ПОЛЬЗОВАТЕЛЬ – ЛИЦО, ЗАКЛЮЧИВШЕЕ С АДМИНИСТРАТОРОМ САЙТА
+                    СОГЛАШЕНИЕ, ПУТЕМ АКЦЕПТА НАСТОЯЩЕЙ ОФЕРТЫ, РАСПОЛОЖЕННОЙ В СЕТИ ИНТЕРНЕТ
+                    ПО СЕТЕВОМУ АДРЕСУhttps://worldgame.online/agreement. СОТРУДНИКИ АДМИНИСТРАТОРА И РОДСТВЕННИКИ ТАКИХ
+                    СОТРУДНИКОВ НЕ ВПРАВЕ АКЦЕПТОВАТЬ НАСТОЯЩУЮ ОФЕРТУ И ЗАКЛЮЧАТЬ СОГЛАШЕНИЕ.
+                </p>
+                <p>
+                    1.1.4. АДМИНИСТРАТОР – ЛИЦО, В КОММЕРЧЕСКОМ УПРАВЛЕНИИ КОТОРОГО НАХОДИТСЯ САЙТ.
+                </p>
+                <p>
+                    1.1.5. СТОРОНЫ – АДМИНИСТРАТОР И ПОЛЬЗОВАТЕЛЬ, ЯВЛЯЮЩИЕСЯ СТОРОНАМИ НАСТОЯЩЕГО
+                    СОГЛАШЕНИЯ.
+                </p>
+                <p>
+                    1.1.6. УСЛУГА – ДЕЙСТВИЯ АДМИНИСТРАТОРА ПО ОРГАНИЗАЦИИ
+                    РАБОТЫ САЙТА И ПРЕДОСТАВЛЕНИЮ ПОЛЬЗОВАТЕЛЮ НА ВОЗМЕЗДНОЙ И/ИЛИ
+                    БЕЗВОЗМЕЗДНОЙ ОСНОВЕ ВОЗМОЖНОСТИ ПРОВЕДЕНИЯ ДОСУГА В ВИДЕ
+                    УЧАСТИЯ В БЕЗРИСКОВЫХ ИГРАХ И РАЗВЛЕЧЕНИЯХ БЕЗ ПРЕДОСТАВЛЕНИЯ
+                    ВОЗМОЖНОСТИ ПОЛУЧЕНИЯ МАТЕРИАЛЬНОГО ВЫИГРЫША С
+                    ИСПОЛЬЗОВАНИЕМ СЕРВИСОВ САЙТА.
+                </p>
+                <p>
+                    1.1.7. CP – ВИРТУАЛЬНАЯ ИГРОВАЯ ЕДИНИЦА САЙТА, ИСПОЛЬЗУЕМАЯ
+                    В ПРОЦЕССЕ ОКАЗАНИЯ АДМИНИСТРАТОРОМ ПОЛУЧЕНИЯ ПОЛЬЗОВАТЕЛЕМ УСЛУГИ САЙТА. ВИРТУАЛЬНЫЕ
+                    ИГРОВЫЕ ЕДИНИЦЫ – CP САЙТА worldgame.online – ИСПОЛЬЗУЮТСЯ ТОЛЬКО В РАМКАХ САЙТА И
+                    НЕ МОГУТ БЫТЬ ПРЕДМЕТОМ КАКИХ БЫ ТО НИ БЫЛО СДЕЛОК И ОПЕРАЦИЙ ВНЕ САЙТА.
+                    ПРИОБРЕТЕНИЕ ПОЛЬЗОВАТЕЛЕМ ВИРТУАЛЬНЫХ ИГРОВЫХ ЕДИНИЦ – CP – ОСУЩЕСТВЛЯЕТСЯ
+                    ТОЛЬКО НА САЙТЕ И ПО ПРАВИЛАМ, УКАЗАННЫМ В НАСТОЯЩЕМ СОГЛАШЕНИИ.
+                </p>
+                <p>
+                    1.1.8. РАУНД – ВРЕМЕННОЙ ОТРЕЗОК/ЧАСТЬ БЕЗРИСКОВЫХ ИГР, СОСТАВЛЯЮЩИХ
+                    УСЛУГИ САЙТА. КАЖДЫЙ РАУНД ИМЕЕТ МОМЕНТ НАЧАЛА И МОМЕНТ
+                    ЗАВЕРШЕНИЯ. В ХОДЕ КАЖДОГО РАУНДА ПОЛЬЗОВАТЕЛИ МОГУТ
+                    СОВЕРШАТЬ СТАВКИ И УЗНАВАТЬ РЕЗУЛЬТАТ БЕЗРИСКОВОЙ
+                    ИГРЫ В ТЕКУЩЕМ РАУНДЕ.
+                </p>
+                <p>
+                    1.2. ВСЕ ОСТАЛЬНЫЕ ТЕРМИНЫ И ОПРЕДЕЛЕНИЯ, ВСТРЕЧАЮЩИЕСЯ В ТЕКСТЕ НАСТОЯЩЕГО СОГЛАШЕНИЯ,
+                    ТОЛКУЮТСЯ СТОРОНАМИ В КОНТЕКСТЕ ЗНАЧЕНИЯ ТЕРМИНОВ, УКАЗАННЫХ В П. 1.1. НАСТОЯЩЕГО
+                    СОГЛАШЕНИЯ, И В СООТВЕТСТВИИ СО СЛОЖИВШИМИСЯ В СЕТИ ИНТЕРНЕТ ОБЫЧНЫМИ ПРАВИЛАМИ
+                    ТОЛКОВАНИЯ СООТВЕТСТВУЮЩИХ ТЕРМИНОВ, НЕ ПРОТИВОРЕЧАЩИМ ПОЛОЖЕНИЯМ НАСТОЯЩЕГО
+                    СОГЛАШЕНИЯ.
+                </p>
+                <p>
+                    1.3. НАЗВАНИЯ ЗАГОЛОВКОВ (СТАТЕЙ) НАСТОЯЩЕГО СОГЛАШЕНИЯ
+                    ПРЕДНАЗНАЧЕНЫ ИСКЛЮЧИТЕЛЬНО ДЛЯ УДОБСТВА ПОЛЬЗОВАНИЯ ТЕКСТОМ СОГЛАШЕНИЯ
+                    И БУКВАЛЬНОГО ЮРИДИЧЕСКОГО ЗНАЧЕНИЯ НЕ ИМЕЮТ.
+                </p>
+                <p>
+                    1.4. В СЛУЧАЕ РАЗНОЧТЕНИЙ/НЕСОВПАДЕНИЙ В ТРАКТОВКЕ ТЕРМИНОВ И ОПРЕДЕЛЕНИЙ В ТЕКСТЕ
+                    НАСТОЯЩЕГО СОГЛАШЕНИЯ И В ТЕКСТЕ ПРАВИЛ И НОРМ, РАЗМЕЩЕННЫХ НА САЙТЕ (НАПРИМЕР,
+                    В РАЗДЕЛЕ F.A.Q. САЙТА) ПРИМЕНЯЕТСЯ И СЧИТАЕТСЯ ПРИОРИТЕТНЫМ
+
+                    ТОЛКОВАНИЕ, СОДЕРЖАЩЕЕСЯ
+                    В ТЕКСТЕ НАСТОЯЩЕГО СОГЛАШЕНИЯ (ПУБЛИЧНОЙ ОФЕРТЫ).
+                </p>
+                <p>
+                    2. ПРЕДМЕТ СОГЛАШЕНИЯ.
+                </p>
+                <span>
+                    2.1. ПРЕДМЕТОМ НАСТОЯЩЕГО СОГЛАШЕНИЯ ЯВЛЯЕТСЯ ПРЕДЛОЖЕНИЕ АДМИНИСТРАТОРА, ОБРАЩЕННОЕ К
+                    ПОТЕНЦИАЛЬНОМУ ПОЛЬЗОВАТЕЛЮ, ПОЛУЧАТЬ С ИСПОЛЬЗОВАНИЕМ СЕРВИСОВ САЙТА
+                    РАЗВЛЕКАТЕЛЬНО-АТТРАКЦИОННЫЕ УСЛУГИ СТРОГО НА УСЛОВИЯХ НАСТОЯЩЕГО СОГЛАШЕНИЯ.
+                </span>
+                <p>
+                    2.2. ЛИЦО, АКЦЕПТОВАВШЕЕ НАСТОЯЩУЮ ОФЕРТУ, СТАНОВИТСЯ ПОЛЬЗОВАТЕЛЕМ И ОБЯЗУЕТСЯ
+                    ИСПОЛЬЗОВАТЬ САЙТ ТОЛЬКО НА УСЛОВИЯХ НАСТОЯЩЕГО СОГЛАШЕНИЯ.
+                </p>
+                <p>
+                    2.3. ПОЛЬЗОВАНИЕ УСЛУГАМИ САЙТА ЛИЦАМИ, НЕ ОБЛАДАЮЩИМИ ПОЛНОЙ ДЕЕСПОСОБНОСТЬЮ
+                    (КАК ПО ВОЗРАСТУ, ТАК И ПО СОСТОЯНИЮ ЗДОРОВЬЯ) В СООТВЕТСТВИИ С НОРМАМИ И
+                    ЗАКОНАМИ СООТВЕТСТВУЮЩЕЙ ЮРИСДИКЦИИ (СТРАНЫ ПРЕБЫВАНИЯ ФИЗИЧЕСКОГО ЛИЦА) ЗАПРЕЩЕНО.
+                </p>
+                <p>
+                    3. ЗАКЛЮЧЕНИЕ, ИЗМЕНЕНИЕ, РАСТОРЖЕНИЕ СОГЛАШЕНИЯ
+                </p>
+                <span>
+                    3.1. АДМИНИСТРАТОР ПРЕДОСТАВЛЯЕТ ПОЛЬЗОВАТЕЛЮ ДОСТУП К ИНФОРМАЦИИ О САЙТЕ, ИНФОРМАЦИИ
+                    ОБ УСЛУГАХ САЙТА, ТЕКСТУ НАСТОЯЩЕГО СОГЛАШЕНИЯ И ИНЫХ НОРМАТИВНЫХ ДОКУМЕНТОВ,
+                    УСТАНАВЛИВАЮЩИХ ПРАВИЛА И НОРМЫ ПОЛУЧЕНИЯ УСЛУГ САЙТА, ДО АВТОРИЗАЦИИ ПОЛЬЗОВАТЕЛЯ
+                    НА САЙТЕ. ПОСЛЕ АВТОРИЗАЦИИ НА САЙТЕ ПОЛЬЗОВАТЕЛЮ ПРЕДОСТАВЛЯЕТСЯ ВОЗМОЖНОСТЬ
+                    ПОЛУЧЕНИЯ УСЛУГ САЙТА.
+                </span>
+                <p>
+                    3.2. НАСТОЯЩЕЕ СОГЛАШЕНИЯ СЧИТАЕТСЯ ЗАКЛЮЧЕННЫМ С МОМЕНТА АВТОРИЗАЦИИ ПОЛЬЗОВАТЕЛЯ НА
+                    САЙТЕ ЧЕРЕЗ ВВЕДЕНИЕ В СПЕЦИАЛЬНОЙ ФОРМЕ ЛОГИНА И ПАРОЛЯ УЧЕТНОЙ ЗАПИСИ.
+                </p>
+                <p>
+                    3.2.1. АВТОРИЗУЯСЬ НА САЙТЕ, ПОЛЬЗОВАТЕЛЬ ВЫРАЖАЕТ СВОЕ ПРЯМОЕ, ПОЛНОЕ, БЕЗОГОВОРОЧНОЕ
+                    И БЕЗУСЛОВНОЕ СОГЛАСИЕ С НОРМАМИ НАСТОЯЩЕГО СОГЛАШЕНИЯ.
+                </p>
+                <p>
+                    3.3. АДМИНИСТРАТОР В ОДНОСТОРОННЕМ ПОРЯДКЕ ВПРАВЕ В ЛЮБОЙ МОМЕНТ ИЗМЕНИТЬ,
+                    ОТМЕНИТЬ, ДОПОЛНИТЬ ЛЮБЫЕ УСЛОВИЯ НАСТОЯЩЕГО СОГЛАШЕНИЯ И ИНЫХ НОРМАТИВНЫХ
+                    ДОКУМЕНТОВ САЙТА (ПРАВИЛ, РАЗМЕЩЕННЫХ НА САЙТЕ И СОДЕРЖАЩИХ УКАЗАНИЯ НА
+                    НОРМЫ И ПОРЯДОК ОКАЗАНИЯ УСЛУГ САЙТА) БЕЗ ПРЕДВАРИТЕЛЬНОГО СОГЛАСОВАНИЯ
+                    С ПОЛЬЗОВАТЕЛЕМ.
+                </p>
+                <p>
+                    3.3.1. ИЗМЕНЕННЫЙ/ДОПОЛНЕННЫЙ ТЕКСТ НАСТОЯЩЕГО СОГЛАШЕНИЯ СТАНОВИТСЯ ОБЯЗАТЕЛЬНЫМ ДЛЯ
+                    ВСЕХ БЕЗ ИСКЛЮЧЕНИЯ АВТОРИЗОВАННЫХ ПОЛЬЗОВАТЕЛЕЙ ПО ИСТЕЧЕНИЕ 12 (ДВЕНАДЦАТИ)
+                    ЧАСОВ С МОМЕНТА РАЗМЕЩЕНИЯ ИЗМЕНЕННОГО/ДОПОЛНЕННОГО ТЕКСТА СОГЛАШЕНИЯ ПО
+                    СЕТЕВОМУ АДРЕСУ: https://worldgame.online/agreement.
+                </p>
+                <p>
+                    3.3.2. ПОЛЬЗОВАТЕЛЬ ОБЯЗАН САМОСТОЯТЕЛЬНО СЛЕДИТЬ ЗА ИЗМЕНЕНИЯМИ В ТЕКСТЕ СОГЛАШЕНИЯ,
+                    РАЗМЕЩЕННОГО ПО СЕТЕВОМУ АДРЕСУ: https://worldgame.online/agreement.
+                    ЕСЛИ ПО ОДНОСТОРОННЕМУ УСМОТРЕНИЮ АДМИНИСТРАТОРА ИЗМЕНЕНИЯ ПОТРЕБУЮТ ПЕРСОНАЛЬНОГО
+                    ДОПОЛНИТЕЛЬНОГО УВЕДОМЛЕНИЯ ПОЛЬЗОВАТЕЛЕЙ, ТО АДМИНИСТРАТОР ВПРАВЕ (НО НЕ ОБЯЗАН)
+                    ПЕРСОНАЛЬНО УВЕДОМИТЬ КРУГ ПОЛЬЗОВАТЕЛЕЙ, КОТОРЫХ МОГУТ КОСНУТЬСЯ ИЗМЕНЕНИЯ/ДОПОЛНЕНИЯ.
+                </p>
+                <p>
+                    3.3.3. ИСПОЛЬЗОВАНИЕ ПОЛЬЗОВАТЕЛЕМ САЙТА И ЕГО УСЛУГ И СЕРВИСОВ ПОСЛЕ РАЗМЕЩЕНИЯ ПО
+                    СЕТЕВОМУ АДРЕСУ: https://worldgame.online/agreementИЗМЕНЕННОГО ТЕКСТА НАСТОЯЩЕГО
+                    ПОЛЬЗОВАТЕЛЬСКОГО СОГЛАШЕНИЯ ОЗНАЧАЕТ ПОЛНОЕ И БЕЗОГОВОРОЧНОЕ СОГЛАСИЕ ПОЛЬЗОВАТЕЛЯ
+                    С ВСЕМИ БЕЗ ИСКЛЮЧЕНИЯ НОРМАМИ ИЗМЕНЕННОГО ТЕКСТА СОГЛАШЕНИЯ.
+                </p>
+                <p>
+                    3.4. ПРИ ДОСТИЖЕНИИ 12ТИ МЕСЯЧНОГО ПЕРИОДА (ПОДРЯД) ОТСУТСТВИЯ АВТОРИЗАЦИИ НА САЙТЕ
+                    ОТ ИМЕНИ АДМИНИСТРАТОРА ПОЛЬЗОВАТЕЛЮ НАПРАВЛЯЕТСЯ ЭЛЕКТРОННОЕ УВЕДОМЛЕНИЕ О РАСТОРЖЕНИИ
+                    СОГЛАШЕНИЯ.
+                </p>
+                <p>
+                    3.4.1. ЕСЛИ В ТЕЧЕНИЕ 30 (ТРИДЦАТИ) КАЛЕНДАРНЫХ ДНЕЙ С МОМЕНТА НАПРАВЛЕНИЯ УВЕДОМЛЕНИЯ,
+                    ПОЛЬЗОВАТЕЛЬ НЕ СОВЕРШИЛ
+                    АВТОРИЗАЦИЮ НА САЙТЕ И НЕ ВОЗОБНОВИЛ ПОЛЬЗОВАНИЕ УСЛУГАМИ САЙТА, НАСТОЯЩЕЕ СОГЛАШЕНИЕ
+                    С КОНКРЕТНЫМ ПОЛЬЗОВАТЕЛЕМ СЧИТАЕТСЯ РАСТОРГНУТЫМ.
+                </p>
+                <p>
+                    3.4.2. В СЛУЧАЕ РАСТОРЖЕНИЯ НАСТОЯЩЕГО СОГЛАШЕНИЯ ВЕСЬ ОСТАТОК ВИРТУАЛЬНЫХ ИГРОВЫХ ЕДИНИЦ
+                    – CP, ИМЕВШИХСЯ У ПОЛЬЗОВАТЕЛЯ ПРИ ПОЛЬЗОВАНИИ УСЛУГАМИ НА САЙТЕ – АННУЛИРУЕТСЯ В
+                    МОМЕНТ РАСТОРЖЕНИЯ СОГЛАШЕНИЯ БЕЗ КАКОЙ БЫ ТО НИ БЫЛО КОМПЕНСАЦИИ (ОПЛАЧЕННЫХ
+                    И НЕ ПОТРЕБЛЕННЫХ РАЗВЛЕКАТЕЛЬНЫХ УСЛУГ) В СТОРОНУ ПОЛЬЗОВАТЕЛЯ. ПОСЛЕ
+                    РАСТОРЖЕНИЯ НАСТОЯЩЕГО СОГЛАШЕНИЯ ПОЛЬЗОВАТЕЛЬ НЕ ВПРАВЕ ЗАЯВЛЯТЬ КАКИЕ
+                    БЫ ТО НИ БЫЛО ТРЕБОВАНИЯ В АДРЕС АДМИНИСТРАТОРА И САЙТА, В ТОМ ЧИСЛЕ, НО, НЕ ОГРАНИЧИВАЯСЬ:
+                    НЕ ВПРАВЕ ТРЕБОВАТЬ ВОЗВРАТА ДЕНЕЖНЫХ СРЕДСТВ ЗА ОПЛАЧЕННУЮ, НО НЕ ПОТРЕБЛЕННУЮ УСЛУГУ И Т.П..
+                </p>
+                <p>
+                    4. УСЛУГИ САЙТА
+                </p>
+
+                <span>
+                    4.1. УСЛУГИ, ОКАЗЫВАЕМЫЕ НА САЙТЕ, ЯВЛЯЮТСЯ ЗРЕЛИЩНО-РАЗВЛЕКАТЕЛЬНЫМИ (ГРАФИКА/АНИМАЦИЯ,
+                    ПРЕДСТАВЛЕННЫЕ НА САЙТЕ) И АТТРАКЦИОННЫМИ (ПРОГРАММА - СИМУЛЯТОР). УСЛУГИ САЙТА СЛУЖАТ ДЛЯ
+                    УДОВЛЕТВОРЕНИЯ ЛИЧНЫХ ЭМОЦИОНАЛЬНО-ПСИХОЛОГИЧЕСКИХ ПОТРЕБНОСТЕЙ ПОТРЕБИТЕЛЕЙ И
+                    СТРОЯТСЯ ПО ПРИНЦИПУ - СИМУЛЯТОРА. ТО ЕСТЬ, С ПОМОЩЬЮ ПРЕДСТАВЛЕННЫХ НА САЙТЕ
+                    СЕРВИСОВ.
+                </span>
+            </div>
+
+        </div>
+        <!--End Agreement-->
+
+        <!--Questions-->
+        <div id="questions" class=" dn page faded questions-answers  flex-direction-column">
+            <div class="questions-answers-header">
+                <p>
+                    F.A.Q
+                </p>
+            </div>
+            <div class="questions-answers-box">
+                <div class="questions-answers-block">
+                    <div class="questions-answers-block-title df align-items-center  justify-content-between">
+                        <p>
+                            Что такое worldgame.online?
+                        </p>
+                        <i class="icon-down-big highlight"></i>
+                    </div>
+                    <div class="questions-answers-block-cont">
+                        worldgame.online – сервис моментальных игр
+                    </div>
+                </div>
+                <div class="questions-answers-block">
+                    <div class="questions-answers-block-title df  align-items-center  justify-content-between">
+                        <p>
+                            Как начать играть?
+                        </p>
+                        <i class="icon-down-big"></i>
+                    </div>
+                    <div class="questions-answers-block-cont">
+                        Очень просто, пройти регистрацию , принять правила пользования сервисом и начать
+                        выигрывать!
+                    </div>
+                </div>
+                <div class="questions-answers-block">
+                    <div class="questions-answers-block-title df align-items-center  justify-content-between">
+                        <p>
+                            За сколько времени происходит вывод средств?
+                        </p>
+                        <i class="icon-down-big"></i>
+                    </div>
+                    <div class="questions-answers-block-cont">
+                        Поскольку вывод средств мы осуществляем вручную, время зачисления средств может
+                        происходить до 24 часов. Вывод на сумму свыше 1000р возможен только на кошелек, с
+                        которого был совершен депозит. Администрация сайта может потребовать данные для
+                        дополнительной верификации. При выводе средств, необходимо сыграть хотя бы 15 игр на
+                        сумму более 5% последнего пополнения счета.
+                    </div>
+                </div>
+                <div class="questions-answers-block">
+                    <div class="questions-answers-block-title align-items-center  df justify-content-between">
+                        <p>
+                            Как устроена партнерская система?
+                        </p>
+                        <i class="icon-down-big"></i>
+                    </div>
+                    <div class="questions-answers-block-cont">
+                        Вы приглашаете новых пользователей на worldgame.online за их игру, и будете
+                        получать определенный % (зависит от партнерского уровня) на Ваш баланс в нашей
+                        системе. Средства полученные с партнерской программы можно без проблем вывести.
+                    </div>
+                </div>
+                <div class="questions-answers-block">
+                    <div class="questions-answers-block-title df align-items-center  justify-content-between">
+                        <p>
+                            Категорически запрещено
+                        </p>
+                        <i class="icon-down-big"></i>
+                    </div>
+                    <div class="questions-answers-block-cont">
+                        worldgame.online – сервис моментальных игр
+                    </div>
+                </div>
+                <div class="questions-answers-block">
+                    <div class="questions-answers-block-title df align-items-center  justify-content-between">
+                        <p>
+                            Остались вопросы
+                        </p>
+                        <i class="icon-down-big up-arrow"></i>
+                    </div>
+                    <div class="questions-answers-block-cont">
+                        Обратиться в
+                        <a href="#">службу поддержки</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--End Questions-->
+
+        <!--Rules-->
+        <div id="rules" class="dn flex-direction-column page faded rules">
+            <div class="rules-header">
+                <p>
+                    Правила
+                </p>
+            </div>
+            <div class="rules-content">
+                <div class="rules-content__title">
+                    <p>
+                        На сайте категорически запрещено:
+                    </p>
+                </div>
+                <div class="rules-content__list">
+                    <ul>
+                        <li> <span>1.</span> Регистрировать более одной учетной записи для индивидуального пользователя.
+                        </li>
+                        <li><span>2.</span>Выплаты с разных аккаунтов на одинаковые реквизиты.</li>
+                        <li><span>3.</span>Размещение любой, заведомо ложной информации.</li>
+                        <li><span>4.</span>Использование возможных нарушений работы скрипта и сайта в целях личной
+                            выгоды.</li>
+                        <li><span>5.</span>Передача доступа к аккаунту 3м лицам. </li>
+                        <li><span>6.</span> Махинации с реферальной системой. </li>
+                        <li><span>7.</span>Использовать аватары, содержащие сцены насилия, разврат (порнография),
+                            коммерцию, рекламу и сквернословие. </li>
+                        <li><span>8.</span>Пополнение денежных средств для моментального последующего вывода на другую
+                            платежную систему. </li>
+                        <li><span>9.</span>Использовать сайт как обменник. При выводе средств, необходимо сыграть хотя
+                            бы 15 игр на сумму более 5% последнего пополнения счета.</li>
+                        <li><span>10.</span>Размещать ссылки на сторонние ресурсы</li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--End Rules-->
+
+        <!--Deposit-->
+        <div id="deposit" class=" dn flex-direction-column  page faded deposit">
+            <div class="deposit-header">
+                <p>
+                    Пополнение баланса
+                </p>
+            </div>
+            <div class="deposit-content df justify-content-center align-items-center">
+                <div class="deposit-content-block">
+                    <div class="deposit-title-img df justify-content-center ">
+                        <img src="src/img/deposit/fkp.png" alt="">
+                    </div>
+                    <div class="deposit-content-box df align-items-center">
+                        <div class="deposit-content-box-list df flex-direction-column">
+                            <a href="#"><img src="src/img/deposit/payeer.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/mts.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/visa.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/bitcoin.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/logo-ethereum.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/megafon.png" alt=""></a>
+                        </div>
+                        <div class="deposit-content-box-list df flex-direction-column">
+                            <a href="#"><img src="src/img/deposit/qiwi.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/beeline.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/pm.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/mgf.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit//dogecoin.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/advcash.png" alt=""></a>
+                        </div>
+                        <div class="deposit-content-box-list df flex-direction-column">
+                            <a href="#"><img src="src/img/deposit/ya.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/fk.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/tele2.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/monero-logo.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/Zcash.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/dims.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="deposit-content-block">
+                    <div class="deposit-title-img df justify-content-center ">
+                        <img src="src/img/deposit/payeer.png" alt="">
+                    </div>
+                    <div class="deposit-content-box df  align-items-center">
+                        <div class="deposit-content-box-list df flex-direction-column">
+                            <a href="#"><img src="src/img/deposit/tele2.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/mts.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/visa.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/logo-ethereum.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/litecoin.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/euroset.png" alt=""></a>
+                        </div>
+                        <div class="deposit-content-box-list df flex-direction-column">
+                            <a href="#"><img src="src/img/deposit/qiwi.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/beeline.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/bitcoin.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/advcash.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/alf.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/4-512.png" alt="">
+                                <p>наличные москва</p>
+                            </a>
+                        </div>
+                        <div class="deposit-content-box-list df flex-direction-column">
+                            <a href="#"><img src="src/img/deposit/ya.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/mgf.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/Zcash.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/monero-logo.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/dogecoin.png" alt=""></a>
+                            <a href="#"><img src="src/img/deposit/Maestro.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="deposit-header deposit-header-blue">
+                <p>
+                    Введите сумму платежа
+                </p>
+            </div>
+            <div class="deposit-content-form">
+                <form action="" class="df align-items-center justify-content-center flex-direction-column">
+                    <input type="text" placeholder="Введите сумму на которую хотите пополнить счет (руб)">
+                    <input type="text" placeholder="Номер кошелька">
+                </form>
+            </div>
+            <div class="deposit-header deposit-header-blue">
+                <p>
+                    История операций
+                </p>
+            </div>
+            <div class="deposit-header-history">
+                <p>
+                    История выплат пуста
+                </p>
+            </div>
+        </div>
+        <!--End Deposit-->
+
+        <!--End Output-->
+        <div id="output" class="dn page faded output flex-direction-column">
+            <div class="output-header">
+                <p>
+                    Вывод средств
+                </p>
+            </div>
+            <div class="output-content">
+                <div class="deposit-content-box df  align-items-center justify-content-center">
+                    <div class="output-content-box-list df align-items-center  flex-direction-column">
+                        <a href="#"><img src="src/img/deposit/payeer.png" alt=""></a>
+                        <a href="#"><img src="src/img/deposit/mts.png" alt=""></a>
+                        <a href="#"><img src="src/img/deposit/visa.png" alt=""></a>
+                        <a href="#"><img src="src/img/deposit/nix.png" alt=""></a>
+                    </div>
+                    <div class="output-content-box-list df  flex-direction-column">
+                        <a href="#"><img src="src/img/deposit/qiwi.png" alt=""></a>
+                        <a href="#"><img src="src/img/deposit/beeline.png" alt=""></a>
+                        <a href="#"><img src="src/img/deposit/mir.png" alt=""></a>
+                        <a href="#"><img src="src/img/deposit/mgf.png" alt=""></a>
+                    </div>
+                    <div class="output-content-box-list df  flex-direction-column">
+                        <a href="#"><img src="src/img/deposit/ya.png" alt=""></a>
+                        <a href="#"><img src="src/img/deposit/fk.png" alt=""></a>
+                        <a href="#"><img src="src/img/deposit/tele2.png" alt=""></a>
+                        <a href="#"><img src="src/img/deposit/wm.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="deposit-header deposit-header-blue">
+                <p>
+                    Введите сумму платежа
+                </p>
+            </div>
+            <div class="deposit-content-form">
+                <form action="" class="df align-items-center justify-content-center flex-direction-column">
+                    <input type="text" placeholder="Введите сумму на которую хотите пополнить счет (руб)">
+                    <input type="text" placeholder="Номер кошелька">
+                </form>
+            </div>
+            <div class="deposit-header deposit-header-blue">
+                <p>
+                    История операций
+                </p>
+            </div>
+            <div class="deposit-header-history">
+                <p>
+                    История выплат пуста
+                </p>
+            </div>
+        </div>
+        <!--End Output-->
+
+        <!--Promo-->
+        <div id="promo" class="dn page faded promo flex-direction-column">
+            <div class="referral-header">
+                <p>Промо код</p>
+            </div>
+            <div class="referral-content df flex-direction-column ">
+                <div class="referral-content__descr">
+                    <p>
+                        Нет промокода? Они могут быть в нашей группе Вконтакте Максимально возможный вывод со счета от
+                        100.00 ₽
+                    </p>
+                </div>
+                <div class="referral-content__ref df justify-content-center">
+                    <input type="text" class="" placeholder="Промо код">
+                </div>
+                <button class="promo-btn">Получить</button>
+            </div>
+            <div class="games-content__win df">
+                <div class="info-bonus__header df justify-content-between align-items-center">
+                    <p>Статистика</p>
+                </div>
+                <div class="games-content__win__button">
+                    <button class="statistics-btn">История активаций</button>
+                </div>
+            </div>
+
+            <div class="statistics-content df align-items-center justify-content-between">
+                <div class="statistics-content__block">
+                    <div class="text">
+                        <p>
+                            Количество рефералов
+                        </p>
+                    </div>
+                    <div class="number">
+                        <p>
+                            10
+                        </p>
+                    </div>
+                </div>
+                <div class="statistics-content__block ">
+                    <div class="text">
+                        <p>
+                            Общий доход
+                        </p>
+                    </div>
+                    <div class="number">
+                        <p>
+                            100.00 ₽
+                        </p>
+                    </div>
+                </div>
+                <div class="statistics-content__block">
+                    <div class="text">
+                        <p>
+                            Заработок
+                        </p>
+                    </div>
+                    <div class="number">
+                        <p>
+                            10%
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Promo-->
+
+        <!--Info-->
+        <div class="main-content__info df flex-direction-column">
+            <div class="info-bonus__header df justify-content-between align-items-center">
+                <p>Бонусные раздачи</p>
+                <a href="#"><i class="icon-help-circled"></i></a>
+            </div>
+            <div class="bonus-box">
+                <div class="info-bonus__content">
+                    <div class="bonus-content__start df align-items-center">
+                        <p>
+                            Начало через:
+                        </p>
+                        <p class="bonus-content__start-money">
+                            2ч : 05 мин
+                        </p>
+                    </div>
+                    <div class="bonus-content__money df align-items-center">
+                        <p>
+                            Сумма:
+                        </p>
+                        <p class="bonus-content__money-descr">
+                            20 ₽
+                        </p>
+                    </div>
+                </div>
+                <div class="info-bonus__btn">
+                    <button class="info-bonus__btn-button">Принять участие</button>
+                    <div class="info-bonus__btn-open">
+                        <p>Для участия необходимо: </p>
+                        <p>1. Сделать единоразовый платеж на сумму не менее 50.00 ₽ </p>
+                        <p>2. Находиться online на сайте </p>
+                        <p>3. Система случайным образом определит 30 победителей и начислит деньги на баланс</p>
+                    </div>
+                </div>
+                <div class="info-bonus__small">
+                    <a href="#">Список участников</a>
+                </div>
+            </div>
+            <div class="info-bonus__header df justify-content-between align-items-end">
+                <p>Удачный игрок</p>
+            </div>
+            <div class="player-box df ">
+                <div class="player-box__user df align-items-center">
+                    <div class="player-box__img df">
+                        <img src="src/img/header/4ec3_bc03.png" alt="">
+                    </div>
+                    <div class="player-box__content df justify-content-between flex-direction-column">
+                        <div class="player-box__content__name">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="player-box__content__win">
+                            <p>
+                                Выигрыш: <span>1500 ₽</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="player-box__chance">
+                    <p>
+                        Шанс: <span>11%</span>
+                    </p>
+                </div>
+            </div>
+            <div class="info-bonus__header df justify-content-between align-items-end">
+                <p>Наибольший куш</p>
+            </div>
+            <div class="player-box df ">
+                <div class="player-box__user df align-items-center">
+                    <div class="player-box__img df">
+                        <img src="src/img/header/4ec3_bc03.png" alt="">
+                    </div>
+                    <div class="player-box__content df justify-content-between flex-direction-column ">
+                        <div class="player-box__content__name">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="player-box__content__win">
+                            <p>
+                                Выигрыш: <span>1500 ₽</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="player-box__chance">
+                    <p>
+                        Шанс: <span>11%</span>
+                    </p>
+                </div>
+            </div>
+            <div class="info-bonus__header df justify-content-between align-items-end">
+                <p>Сыграно сегодня</p>
+                <p>502</p>
+            </div>
+            <div class="well-played">
+                <div class="well-played__text df flex-direction-column">
+                    <a class="click-page" href="#rules">Правила</a>
+                    <a class="click-page" href="#agreement">Соглашение</a>
+                    <a class="click-page" href="#questions">F.A.Q.</a>
+                </div>
+            </div>
+        </div>
+        <!--End Info-->
+    </section>
+    <!--End Main-->
+
+    <!--Popups-->
+    <!-- Техническая поддержка -->
+    <div id="tech" class="dn">
+        <div id="tech-support">
+            <div class="tech-support-content">
+                <div class="tech-support-title df justify-content-between">
+                    <p>
+                        Техническая поддержка
+                    </p>
+                    <i class="icon-cancel"></i>
+                </div>
+                <div class="tech-support-box df flex-direction-column align-items-center">
+                    <h4>
+                        Написать Письмо
+                    </h4>
+                    <form action="POST" class="df flex-direction-column">
+
+                        <input type="text" class="tech-support-inp" placeholder="Тема письма">
+
+                        <textarea placeholder="Текст обращения" rows="13"></textarea>
+                    </form>
+                    <button>
+                        Отправить
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Техническая поддержка -->
+    <!-- Вход в аккаунд -->
+    <div class="entrance-popup dn">
+        <div id="entrance">
+            <div class="entrance-content">
+                <div class="entrance-title df justify-content-between">
+                    <p>
+                        Вход
+                    </p>
+                    <i class="icon-cancel"></i>
+                </div>
+                <div class="entrance-box df flex-direction-column align-items-center">
+                    <h4>
+                        <span>
+                            Вход по логину /
+                        </span>
+                        <a class="ent-btn" href="#">Регистрация</a>
+                    </h4>
+                    <form action="POST">
+                        <input type="text" class="entrance-text" placeholder="Логин">
+                        <div class="entrance-password-box">
+                            <input type="password" id="entrance-password-show" class="modal-input" placeholder="Пароль">
+                            <button type="button" class="entrance-password-show">
+                                <i class="icon-eye"></i>
+                            </button>
+                        </div>
+                    </form>
+                    <div class="entrance-support df align-content-center">
+                        <div class="remember-me">
+                            <div class="check df">
+                                <input type="checkbox" id="checkbox">
+                                <label for="checkbox">Запомнить меня</label>
+                            </div>
+                        </div>
+                        <div class="forgot-password">
+                            <a href="#">
+                                Забыли пароль?
+                            </a>
+                        </div>
+                    </div>
+                    <div class="entrance-social-net df align-items-center">
+                        <div class="social-net-text">
+                            Войти через:
+                        </div>
+                        <div class="entrance-social-net-link df align-items-center">
+                            <a href="#">
+                                <i class="icon-vkontakte"></i>
+                            </a>
+                            <a href="#">
+                                <i class="icon-facebook-circled"></i>
+                            </a>
+                            <a href="#">
+                                <i class="icon-odnoklassniki"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="entrance-recapycha">
+                        reCAPYCHA
+                    </div>
+                    <button id="entrance-login-account">
+                        Войти
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END Вход в аккаунд -->
+    <!-- регистрацыя -->
+    <div class="registration-popup dn">
+        <div id="registration">
+            <div class="registration-content">
+                <div class="registration-title df justify-content-between">
+                    <p>
+                        Вход
+                    </p>
+                    <i class="icon-cancel"></i>
+                </div>
+                <div class="registration-box df flex-direction-column align-items-center">
+                    <h4>
+                        <a class="reg-btn" href="#"> Вход по логину</a>
+                        <span>
+                            / Регистрация
+                        </span>
+                    </h4>
+
+                    <form action="POST">
+                        <input type="text" class="register-login-text" placeholder="Логин">
+                        <input type="mail" placeholder="Email">
+                        <div class="registration-password-box">
+                            <div class="registration-password">
+                                <input type="password" id="registration-password-show" class="modal-input"
+                                    placeholder="Пароль">
+                                <button type="button" class="registration-password-show">
+                                    <i class="icon-eye"></i>
+                                </button>
+                            </div>
+                            <div class="registration-password">
+                                <input type="password" id="registration-password-show" class="modal-input"
+                                    placeholder="Повторить пароль">
+                                <button type="button" class="registration-password-show">
+                                    <i class="icon-eye"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="registration-site-rules df">
+                        <a href="#">правилами сайта</a>
+                    </div>
+
+                    <div class="registration-social-net df align-items-center">
+                        <div class="social-net-text">
+                            Войти через:
+                        </div>
+                        <div class="registration-social-net-link df align-items-center">
+                            <a href="#">
+                                <i class="icon-vkontakte"></i>
+                            </a>
+                            <a href="#">
+                                <i class="icon-facebook-circled"></i>
+                            </a>
+                            <a href="#">
+                                <i class="icon-odnoklassniki"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="registration-recapycha">
+                        reCAPYCHA
+                    </div>
+                    <button id="registration-login-account">
+                        Войти
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END регистрацыя -->
+    <!-- История активаций -->
+    <div class="history dn">
+        <div id="activation-history">
+            <div class="activation-history-content">
+                <div class="activation-history-title df justify-content-between align-items-center">
+                    <p>
+                        История активаций
+                    </p>
+                    <i class="icon-cancel"></i>
+                </div>
+                <div class="activation-history-box df flex-direction-column align-items-center">
+                    <div class="activation-history-box-header df justify-content-between">
+                        <p>
+                            Дата
+                        </p>
+                        <p>
+                            Код
+                        </p>
+                        <p>
+                            Сумма
+                        </p>
+                    </div>
+                    <div class="activation-history-box-history">
+                        <div class="activation-history-box-history-content df  justify-content-center">
+                            <!-- <p>История активации пуста</p>  -->
+                            <p>История активации пуста</p>
+                            <!-- <p>История активации пуста</p>  -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END История активаций -->
+    <!-- Список участников -->
+    <div class="list dn">
+        <div id="list-participant">
+            <div class="list-participant-content">
+                <div class="list-participant-title df  justify-content-between">
+                    <p>
+                        Список участников
+                    </p>
+                    <a href="#" class="click-cancel">
+                        <i class="icon-cancel"></i>
+                    </a>
+                </div>
+                <div class="list-participant-box df flex-direction-column">
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            17:01:02
+                        </div>
+                    </div>
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            17:01:02
+                        </div>
+                    </div>
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            17:01:02
+                        </div>
+                    </div>
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            17:01:02
+                        </div>
+                    </div>
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            17:01:02
+                        </div>
+                    </div>
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            17:01:02
+                        </div>
+                    </div>
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            17:01:02
+                        </div>
+                    </div>
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            17:01:02
+                        </div>
+                    </div>
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            17:01:02
+                        </div>
+                    </div>
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            17:01:02
+                        </div>
+                    </div>
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            17:01:02
+                        </div>
+                    </div>
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            17:01:02
+                        </div>
+                    </div>
+                    <div class="list-participant-block df justify-content-between">
+                        <div class="list-participant-user df">
+                            <img src="src/img/chat/user/user-one.png" alt="1">
+                            <p>
+                                Игрок
+                            </p>
+                        </div>
+                        <div class="data">
+                            <!-- 17:01:02 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Список участников -->
+    <!--End Popups-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="src/js/app.js"></script>
+</body>
+
+</html>

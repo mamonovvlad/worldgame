@@ -1,0 +1,205 @@
+/*Header*/
+.header
+    background: #001A41 0% 0% no-repeat padding-box
+    box-shadow: 0px 5px 6px #00000029
+    opacity: 1
+    padding: 19px 70px 0
+
+.header-box__buttom
+    & a
+        cursor: pointer
+        background: #00B4FB
+        border: none
+        padding: 8px 33px
+        margin: 0 10px
+        transition: 250ms ease
+        font-size: 1.4rem
+        outline: none
+        &:hover
+            transition: 250ms ease
+            background: #FF8422
+.header-box__maney,
+.header-box__soc
+    font-weight: 400
+    font-size: 1.1rem
+    padding: 5px 0
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+.header-box__maney a,
+.header-box__soc__nav a
+    font-size: 1.1rem
+    font-weight: 500
+    & img
+        width: 100%
+.header-box__soc__nav a
+    &:hover
+        color: #FF8422
+.header-box__jacpot
+    position: relative
+    margin-top: -10px
+    & img
+        max-width: 100%
+.header-box__jacpot  span
+    position: absolute
+    bottom: 23px
+    left: 0
+    right: 0
+    display: flex
+    justify-content: center
+    font-size: 3rem
+    font-family: 'Abril Fatface', cursive
+.header-box__soc__box
+    margin-right: 18px
+.header-box__soc__block
+    & li
+        padding: 7px 7px
+        margin: 0 5px
+        background: #0088CC
+        display: flex
+        align-items: center
+        justify-content: center
+        transition: 250ms ease
+        cursor: pointer
+
+.header-box__soc__box .hover-block
+    opacity: 0
+    transition: 250ms ease
+    background: rgba(0,136,204,.5)
+.header-box__soc__block:hover .hover-block
+    opacity: 1
+    transition: 250ms ease
+.header-box__soc__box .email
+    background: #EF0101
+.header-box__soc__box .ok
+    background: #EE8208
+.header-box__soc__box .vk
+    background: #4C75A3
+.header-box__soc__box .facebook
+    background: #3B5999
+.email,.ok,.vk,.facebook,.tel
+    display: flex
+    background: #0088CC
+    align-items: center
+    padding: 8px 8px
+    justify-content: center
+    margin: 0 5px
+    cursor: pointer
+    font-size: 1.4rem
+.tel
+    padding: 10px
+.header-box__logo
+    flex-grow: 0.1
+    margin-top: -19px
+    & img
+        width: 100%
+.header-box__soc__nav
+    margin-left: 50px
+    & a
+        transition: 250ms ease
+        & i
+            font-size: 1.5rem
+            &:hover
+                transition: 250ms ease
+                color: #FF8422
+.header-box__maney__nav
+    & ul
+        margin-top: 25px
+    & li
+        margin-right: 36px
+
+        & a
+            transition: 250ms ease
+            &:hover
+                cursor: pointer
+                color: #FF8422
+                transition: 250ms ease
+    &:last-child
+        margin-right: 0px
+.header-box__maney__box
+    height: 100%
+.header-box__maney__block
+    & p
+        flex-grow: 1
+    & button
+        background-color: transparent
+        border: none
+        padding: 0
+        cursor: pointer
+        outline: none
+        & i
+            font-size: 1.6rem
+            cursor: pointer
+            transition: 250ms ease
+        &:hover
+            color: #FF8422
+            transition: 250ms ease
+
+/*Header mobile*/
+.header
+    position: relative
+.mobile-burger
+    cursor: pointer
+    outline: none
+.mobile-burger__img img
+    width: 25px
+.mobile-burger__block
+    display: none
+    position: absolute
+    left: 0
+    right: 0
+    background: #001A41 0% 0% no-repeat padding-box
+    z-index: 20
+    & nav
+        padding: 0 70px
+        & li
+            font-size: 1.8rem
+            font-weight: 400
+            border-bottom: 1px solid #FF8422
+            padding: 7px 0
+            border: none
+            transition: 250ms ease
+            & a:hover
+                transition: 250ms ease
+                color: #FF8422
+    & .header-box__soc__box
+        margin-right: 0px
+        padding: 10px 0
+    & .hover-activ img, .hover-block img
+        width: 15px
+        padding: 0px 8px
+.mobile-burger__user .header-box__buttom a
+    margin: 0 10px
+    padding: 8px 0px
+    & a
+        padding: 4px 8px
+
+/*End Header mobile*/
+/* icon*/
+.icon-chat,
+.icon-info
+    display: none
+    position: fixed
+    z-index: 20
+    top: 30%
+    background: #001A41 0% 0% no-repeat padding-box
+    padding: 15px 10px
+    border-radius: 0  50px  50px  0
+    & img
+        width: 45px
+.icon-info
+    right: 0
+    border-radius: 50px 0 0  50px
+.icon-chat
+    left: 0
+/*End icon*/
+/*End Header*/
+
+/***********************entrance-page**************/
+#entrance-page
+    & .header-box__buttom
+        width: 30%
+        & button
+            padding: 10px 30px
+.header-box__exit
+    width: 30%
